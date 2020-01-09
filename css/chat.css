@@ -94,13 +94,14 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0 -6px 16px -6px;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     color: white;
     font-weight: 600;
+    display: block;
 }
 
 .incoming-message .message__author {
-    margin-top: 25px;
+    margin-top: 10px;
     display: block;
     font-weight: 600;
     font-size: 12px;
