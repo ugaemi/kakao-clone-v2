@@ -55,6 +55,7 @@
     flex-direction: column;
     align-items: center;
     padding: 30px 20px 0;
+    justify-content: center;
 }
 
 .chat__messages .chat__timestamp {
@@ -72,12 +73,7 @@
 .message {
     display: flex;
     align-items: flex-start;
-    width: 50%;
     margin-bottom: 20px;
-}
-
-.message .message__content {
-    width: 80%;
 }
 
 .incoming-message {
@@ -99,10 +95,12 @@
     rgba(0, 0, 0, 0.024) 0 -6px 16px -6px;
     padding: 10px 20px;
     border-radius: 30px;
+    color: white;
+    font-weight: 600;
 }
 
 .incoming-message .message__author {
-    margin-top: 10px;
+    margin-top: 25px;
     display: block;
     font-weight: 600;
     font-size: 12px;
@@ -110,8 +108,10 @@
 
 .incoming-message .message__bubble {
     border-bottom-left-radius: 0;
+    background-image: linear-gradient(to left, #c31432, #240b36);
 }
 
 .sent-message .message__bubble {
     border-bottom-right-radius: 0;
+    background-image: linear-gradient(to right, #7F7FD5, #86A8E7, #91EAE4);
 }
